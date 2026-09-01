@@ -49,7 +49,7 @@ void main() {
 
   Funcionario func1 = Funcionario('Carlos Silva', [dep1, dep2]);
   Funcionario func2 = Funcionario('Mariana Oliveira', [dep3]);
-  Funcionario func3 = Funcionario('João Santos', []); // Sem dependentes
+  Funcionario func3 = Funcionario('João Santos', []);
 
    List<Funcionario> listaFuncionarios = [func1, func2, func3];
 
